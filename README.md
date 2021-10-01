@@ -1,2 +1,3 @@
 # Random-Selector
-Created with CodeSandbox
+
+Simple Application to select random choice between friends and family.
