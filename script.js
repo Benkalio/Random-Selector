@@ -13,6 +13,7 @@ textarea.addEventListener("keyup", (e) => {
     setTimeout(() => {
       e.target.value = "";
     }, 10);
+
     randomSelect();
   }
 });
@@ -60,6 +61,7 @@ function randomSelect() {
   }, times * 100);
 }
 
+//RANDOM TAG FOR CHOICES
 function pickRandomTag() {
   const tags = document.querySelectorAll(".tag");
   return tags[Math.floor(Math.random() * tags.length)];
